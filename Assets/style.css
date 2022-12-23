@@ -1,0 +1,33 @@
+header {
+    /* background-color: gray;  */
+    background-image: linear-gradient(150deg,grey,white);
+    display: flex;
+    justify-content: space-between; 
+}
+
+header h1{
+    font-family: 'IBM Plex Sans', sans-serif;
+    width:50%;
+    font-size:3rem;
+    font-weight: bolder;
+}
+header nav{
+    width:30%;
+    align-self: center;
+}
+
+nav ul {
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    margin-top:1%;
+    padding-top: 3%;
+}
+
+/* font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Zilla Slab', serif; */
