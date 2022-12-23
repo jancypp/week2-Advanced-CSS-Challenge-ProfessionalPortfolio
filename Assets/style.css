@@ -31,3 +31,27 @@ nav ul {
 font-family: 'Inter', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Zilla Slab', serif; */
+
+.row{
+    display: flex;
+}
+.sidebar{
+   width :17%;
+   margin-right: 2%;
+   border-right: 2px solid black;
+}
+.content{
+    width: 80%;
+}
+.subhead{
+    font-family: 'Roboto', sans-serif;
+    text-align: right; 
+}
+#workcontainer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.project{
+    width:45%;
+}
