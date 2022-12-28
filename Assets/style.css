@@ -1,29 +1,30 @@
 header {
     /* background-color: gray;  */
-    background-image: linear-gradient(150deg,grey,white);
+    background-image: linear-gradient(150deg, grey, white);
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
 }
 
-header h1{
+header h1 {
     font-family: 'IBM Plex Sans', sans-serif;
-    width:50%;
-    font-size:3rem;
+    width: 50%;
+    font-size: 3rem;
     font-weight: bolder;
 }
-header nav{
-    width:30%;
+
+header nav {
+    width: 30%;
     align-self: center;
 }
 
 nav ul {
-    width:100%;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     list-style: none;
     font-family: 'Inter', sans-serif;
     font-size: 1.5rem;
-    margin-top:1%;
+    margin-top: 1%;
     padding-top: 3%;
 }
 
@@ -32,26 +33,47 @@ font-family: 'Inter', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Zilla Slab', serif; */
 
-.row{
+.row {
     display: flex;
 }
-.sidebar{
-   width :17%;
-   margin-right: 2%;
-   border-right: 2px solid black;
+
+.sidebar {
+    width: 17%;
+    margin-right: 2%;
+    border-right: 2px solid black;
 }
-.content{
+
+.content {
     width: 80%;
 }
-.subhead{
+
+.subhead {
     font-family: 'Roboto', sans-serif;
-    text-align: right; 
+    text-align: right;
 }
-#workcontainer{
-    display:flex;
+
+#workcontainer {
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.project{
-    width:45%;
+
+.project {
+    width: 45%;
+    position: relative;
+}
+
+#work {
+    flex-wrap: wrap;
+}
+
+.project h3 {
+position: absolute;
+bottom: 8px;
+left: 16px;
+color: white;
+}
+#contact .content {
+    display: flex;
+    justify-content: space-around;
 }
