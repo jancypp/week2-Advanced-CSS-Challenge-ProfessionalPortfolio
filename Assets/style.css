@@ -28,6 +28,14 @@ nav ul {
     padding-top: 3%;
 }
 
+nav ul li a {
+    color: black;
+}
+
+article a {
+    color: black;
+}
+
 /* font-family: 'IBM Plex Sans', sans-serif;
 font-family: 'Inter', sans-serif;
 font-family: 'Roboto', sans-serif;
@@ -67,12 +75,23 @@ font-family: 'Zilla Slab', serif; */
     flex-wrap: wrap;
 }
 
-.project h3 {
-position: absolute;
-bottom: 8px;
-left: 16px;
-color: white;
+#first-image img {
+    width: 100%;
 }
+
+.sub-images {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project h3 {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: white;
+    font-family: 'Zilla Slab', serif;
+}
+
 #contact .content {
     display: flex;
     justify-content: space-around;
