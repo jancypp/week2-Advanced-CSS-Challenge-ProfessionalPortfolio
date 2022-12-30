@@ -76,7 +76,8 @@ font-family: 'Zilla Slab', serif; */
 }
 
 #first-image img {
-    width: 100%;
+    /* width: 100%; */
+    flex: 300px;
 }
 
 .sub-images {
@@ -94,5 +95,7 @@ font-family: 'Zilla Slab', serif; */
 
 #contact .content {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around; 
+    padding: 30px 0px 30px 0px;
 }
+
