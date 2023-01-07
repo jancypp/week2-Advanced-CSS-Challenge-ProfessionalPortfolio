@@ -131,6 +131,22 @@ font-family: 'Zilla Slab', serif; */
     background-image: url("../Images/Golden\ Retriever.jpeg");
 }
 
+.second-image {
+    background-image: url("../Images/Ragdoll\ cat.jpeg");
+}
+
+.third-image {
+    background-image: url("../Images/tuxedo\ cat.jpeg");
+}
+
+.fourth-image {
+    background-image: url("../Images/Golden\ Retriever.jpeg");
+}
+
+.fifth-image {
+    background-image: url("../Images/Golden\ Retriever.jpeg");
+}
+
 .contact address {
     display: flex;
     flex-wrap: wrap;
