@@ -10,6 +10,7 @@ body {
     color: black;
 }
 
+/* styling the header and navigation */
 header {
     background-image: linear-gradient(150deg, grey, white);
     display: flex;
@@ -35,6 +36,7 @@ header nav {
     flex-wrap: wrap;
 }
 
+/* styling the navigation at the top of the webpage */
 nav ul {
     width: 100%;
     display: flex;
@@ -88,10 +90,12 @@ font-family: 'Zilla Slab', serif; */
     flex: 0 0 77%;
 }
 
+/* spacing between paragraph content */
 .row p {
     margin-bottom: 20px;
 }
 
+/* styling for webpage images  */
 #workcontainer {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +116,7 @@ font-family: 'Zilla Slab', serif; */
     background-size: 100%;
 }
 
+/* making the first image larger than the others */
 .project:first-child {
     min-height: 400px;
     flex-basis: 100%;
@@ -127,6 +132,7 @@ font-family: 'Zilla Slab', serif; */
     margin-left: 0;
 }
 
+/* adding placeholder images for each webpage */
 .first-image {
     background-image: url("../Images/Golden\ Retriever.jpeg");
 }
@@ -147,6 +153,7 @@ font-family: 'Zilla Slab', serif; */
     background-image: url("../Images/Elephant.jpeg");
 }
 
+/* styling contact information */
 .contact address {
     display: flex;
     flex-wrap: wrap;
