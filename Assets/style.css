@@ -153,6 +153,9 @@ font-family: 'Zilla Slab', serif; */
     background-image: url("../Images/Elephant.jpeg");
 }
 
+.gist {
+    max-width: 90%;
+}
 /* styling contact information */
 .contact address {
     display: flex;
